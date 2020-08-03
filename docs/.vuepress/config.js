@@ -57,7 +57,13 @@ module.exports = {
           title: 'vuepress搭建',
           collapsable: true,
           path: '/pages/VuePressSummary/vuepressblog.md'
-        }]
+        },
+        {
+          title: '随机',
+          collapsable: true,
+          path: '/pages/VuePressSummary/press.md'
+        }
+      ]
       },
       {
         title: 'Vue',
@@ -66,6 +72,15 @@ module.exports = {
           title: 'Vue',
           collapsable: true,
           path: '/pages/VueSummary/vue.md'
+        }]
+      },
+      {
+        title: '计算机网络',
+        collapsable: true,
+        children: [{
+          title: '计算机网络1',
+          collapsable: true,
+          path: '/pages/ComputerNetworkSummary/计算机网络.md'
         }]
       }
     ],

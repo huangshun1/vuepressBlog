@@ -1,6 +1,4 @@
-## vuepress博客搭建
-
-### 一、开始搭建
+## 一、开始搭建
 
 1. cmd+R使用mkdir+项目名称，或右键新建项目
 
@@ -58,7 +56,7 @@
 
 
 
-### 二、github部署上线
+## 二、github部署上线
 
 1. 登录 [Github](https://github.com/)网站或注册一个github账号
 
