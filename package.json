@@ -8,7 +8,6 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "start deploy.sh",
-    "push": "start push.sh"
   },
   "keywords": [],
   "author": "",
