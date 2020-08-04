@@ -77,11 +77,18 @@ module.exports = {
       {
         title: '计算机网络',
         collapsable: true,
-        children: [{
+        children: [
+          {
           title: '计算机网络1',
           collapsable: true,
           path: '/pages/ComputerNetworkSummary/计算机网络.md'
-        }]
+          },
+          {
+            title: '状态码',
+            collapsable: true,
+            path: '/pages/ComputerNetworkSummary/状态码.md'
+          },
+        ]
       }
     ],
     sidebarDepth: 2
