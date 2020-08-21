@@ -51,42 +51,67 @@ module.exports = {
     search: true, //搜索
     searchMaxSuggestions: 10,
     sidebar: [{
-        title: 'vuepress',
+        title: 'vuepress汇总',
         collapsable: true,
         children: [{
-          title: 'vuepress搭建',
-          collapsable: true,
-          path: '/pages/VuePressSummary/vuepressblog.md'
-        },
-        {
-          title: '随机',
-          collapsable: true,
-          path: '/pages/VuePressSummary/press.md'
-        }
-      ]
-      },
-      {
-        title: 'Vue',
-        collapsable: true,
-        children: [{
-          title: 'Vue',
-          collapsable: true,
-          path: '/pages/VueSummary/vue.md'
-        }]
-      },
-      {
-        title: '计算机网络',
-        collapsable: true,
-        children: [
+            title: 'vuepress搭建',
+            collapsable: true,
+            path: '/pages/VuePressSummary/vuepressblog.md'
+          },
           {
-          title: '计算机网络1',
-          collapsable: true,
-          path: '/pages/ComputerNetworkSummary/计算机网络.md'
+            title: '随机',
+            collapsable: true,
+            path: '/pages/VuePressSummary/press.md'
+          }
+        ]
+      },
+      {
+        title: 'Vue汇总',
+        collapsable: true,
+        children: [{
+            title: 'Vue',
+            collapsable: true,
+            path: '/pages/VueSummary/vue.md'
+          },
+          {
+            title: 'Vue使用NProgress',
+            collapsable: true,
+            path: '/pages/VueSummary/Vue使用NProgress.md'
+          }
+        ]
+      },
+      {
+        title: 'Javascript汇总',
+        collapsable: true,
+        children: [{
+            title: 'JavaScript常用片段',
+            collapsable: true,
+            path: '/pages/JavaScriptSummary/JavaScript常用片段.md'
+          },
+        ]
+      },
+      {
+        title: '计算机网络汇总',
+        collapsable: true,
+        children: [{
+            title: '计算机网络1',
+            collapsable: true,
+            path: '/pages/ComputerNetworkSummary/计算机网络.md'
           },
           {
             title: '状态码',
             collapsable: true,
             path: '/pages/ComputerNetworkSummary/状态码.md'
+          },
+        ]
+      },
+      {
+        title: '插件知识汇总',
+        collapsable: true,
+        children: [{
+            title: 'js-cookie插件',
+            collapsable: true,
+            path: '/pages/PlugInSummary/js-cookie插件.md'
           },
         ]
       }
